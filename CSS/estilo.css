@@ -107,7 +107,7 @@ h1 {
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    font-size: 500%;
+    font-size: 1000%;
     position: sticky;
     top: 0; 
     left: 0;
@@ -233,7 +233,10 @@ h3{
 }
 
 @media screen and (max-width: 900px) {
-    h1  
+    h1 {
+        font-size: 500%;
+    }
+
     header
      {
     display: none;
