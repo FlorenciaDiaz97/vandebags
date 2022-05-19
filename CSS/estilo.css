@@ -21,7 +21,7 @@
     display: grid;
 }
 body {
-    background-image: url(/imagenes/abstract-black-and-white-marble-textured-background.jpg);
+    background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
     background-size: cover;
     height: calc(100vh-100px) ;
 }
