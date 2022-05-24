@@ -200,13 +200,28 @@ h3{
     font-family:'Bebas Neue', cursive;
     font-size: 150%;
     color: white;
-    text-align: center;
+    text-align: left;
 
 }
 .barra {
     grid-area: barra;
     text-align: center;
 }
+
+button {
+    background-color: black;
+    border: white 2px solid;
+    color: white;
+    font-family:'Bebas Neue', cursive;
+    font-size: 200%;
+    text-align: right;
+    animation: pulse; 
+    animation-duration: 30s;
+    animation-delay: 0s;
+    transition-property: top;
+    transition-duration: 3s, 10s;
+}
+
 
 /*icono de whatshap*/
 .float{
