@@ -5,37 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medios de Pago</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ESTILO CSS -->
     <link rel="stylesheet" href="../CSS/estilo.css">
     
 </head>
 <body>
     <header>
-    <h2>VANDEBAGS</h2>
+    <h2 class="display-1">VANDEBAGS</h2>
     </header>
 
-    <nav class="barra">
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="Envios.html">Envios</a></li>
-        <li><a href="Contacto.html">Contacto</a></li>
-        <li><a href="Productos.html">Productos</a></li>
-        <li><a href="Sobrenosotros.html">Sobre Nosotros</a></li>
-    </ul>
-    </nav>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Envios.html">ENVIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Mediosdepago.html">MEDIOS DE PAGO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">CONTACTO</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Sobrenosotros.html">SOBRE NOSOTROS</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   
     <section id="pago">
 
-        <h2>MEDIOS DE PAGO</h2>
-        <ul>
-            <li>Mercado Pago</li>
-            <li>Transferencia</li>
-            <li>Efectivo</li>
-        </ul>
+        <h2 class="display-3">MEDIOS DE PAGO</h2>
+        <ul class="list-group-numbered">
+            <li class="list-group-item-DARK" aria-disabled="true">TODAS LAS TARJETAS</li>
+            <li class="list-group-item-DARK">MERCADO PAGO</li>
+            <li class="list-group-item-DARK">TRANSFERENCIA</li>
+            <li class="list-group-item-DARK">EFECTIVO</li>
+          </ul>
 
     </section>
     <footer>
 
-        <p>Sitio web creado por <strong>Florencia Diaz</strong></p>
+        <p class="text-uppercase">Sitio web creado por <strong>Florencia Diaz</strong></p>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://api.whatsapp.com/send?phone=5493484501947&text=Hola%21%20sean%20bienvenidos%20" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
@@ -43,6 +67,6 @@
         
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

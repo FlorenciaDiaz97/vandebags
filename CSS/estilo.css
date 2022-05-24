@@ -87,6 +87,7 @@ footer {
         font-size: 20px;
         text-align: center;
         grid-area: footer;
+        font-size: 'Bebas Neue', cursive !important;
 }
 /*editando el navegador principal*/
 
@@ -236,24 +237,5 @@ h3{
     h1 {
         font-size: 500%;
     }
-
-    header
-     {
-    display: none;
-    }
-    .contenedor {
-        flex-wrap: wrap;
-    }
-    .carteras {
-        grid-template-columns: 1fr;
-    }
-    #contacto {
-        flex-direction: column;
-        border: none;
-    }
-    nav ul li {
-        display: block;
-    }
-
 }
 
