@@ -1,10 +1,12 @@
+$color-texto:white;
+
 body {
     background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
     background-size: cover;
-    height: calc(100vh-100px) ;
+    height: calc(100vh-100px);
 
     header {
-        color: white;
+        color: $color-texto;
     background-color: black;
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
@@ -18,10 +20,13 @@ body {
     line-height: 25px;
     display: inline;
     font-family:'Bebas Neue', cursive;
-    color: white;
+    color: $color-texto;
     font-size: 40px;
     text-align: center;
     grid-area: navegador;
+    a {
+        text-decoration: none;
+    }
     }
 
 

@@ -90,7 +90,16 @@ footer {
 }
 /*editando el navegador principal*/
 
-
+nav ul li{
+    margin: 10px;
+    line-height: 25px;
+    display: inline;
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    grid-area: navegador;
+}
 
 h1 {
     color: white;
