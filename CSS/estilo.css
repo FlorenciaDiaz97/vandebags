@@ -20,11 +20,6 @@
 .gridpadre{
     display: grid;
 }
-body {
-    background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
-    background-size: cover;
-    height: calc(100vh-100px) ;
-}
 
 /*contenedor de las imagenes*/
 .contenedor{
@@ -37,7 +32,11 @@ body {
 
 /*intentando usar grid*/
 
-
+body {
+    background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
+    background-size: cover;
+    height: calc(100vh-100px) ;
+}
 
 /*aca estoy editando los contenederes y la forma de las imagenes*/
 
@@ -91,16 +90,7 @@ footer {
 }
 /*editando el navegador principal*/
 
-nav ul li{
-    margin: 10px;
-    line-height: 25px;
-    display: inline;
-    font-family:'Bebas Neue', cursive;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    grid-area: navegador;
-}
+
 
 h1 {
     color: white;
@@ -253,4 +243,3 @@ button {
         font-size: 500%;
     }
 }
-

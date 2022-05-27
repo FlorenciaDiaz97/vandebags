@@ -1,0 +1,28 @@
+body {
+    background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
+    background-size: cover;
+    height: calc(100vh-100px) ;
+
+    header {
+        color: white;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 500%;
+
+    }
+    
+    nav ul li {
+        margin: 10px;
+    line-height: 25px;
+    display: inline;
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    grid-area: navegador;
+    }
+
+
+}
