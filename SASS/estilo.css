@@ -10,24 +10,46 @@
   color: yellow;
 }
 
-h2 {
-  font-size: 4rem;
+h18 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-h3 {
-  font-size: 6rem;
+h19 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-h4 {
-  font-size: 8rem;
+h20 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-h5 {
-  font-size: 10rem;
+h21 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-h6 {
-  font-size: 12rem;
+h22 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h23 {
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .pink {

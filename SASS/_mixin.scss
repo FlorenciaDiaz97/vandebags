@@ -1,0 +1,12 @@
+@mixin parrafos {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Bebas Neue', cursive;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.parrafos {
+    @include parrafos; 
+}

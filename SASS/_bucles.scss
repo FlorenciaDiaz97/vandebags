@@ -1,6 +1,9 @@
-@for $i from 2 to 7 {
+@for $i from 18 to 24 {
     h#{$i} {
-        font-size: $i * 2rem;
+        margin: 10px;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
     }
 }
 

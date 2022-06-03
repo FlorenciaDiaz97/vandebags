@@ -1,0 +1,13 @@
+.estilo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Bebas Neue', cursive;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.segundoestilo {
+    @extend .estilo;
+    font-size: 40px;
+}
