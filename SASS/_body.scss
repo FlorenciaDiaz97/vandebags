@@ -1,41 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
     background-image: url(../imagenes/abstract-black-and-white-marble-textured-background.jpg);
     background-size: cover;
-    height: calc(100vh-100px); 
-    h1 {
-        color: white;
-        background-color: black;
-        background-size: cover;
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        font-size: 1000%;
-        position: sticky;
-        top: 0; 
-        left: 0;
-        right: 0;
-        grid-area: titulo;
-    }
-
-        header {
-            color: $color-texto;
-        background-color: black;
-        background-size: cover;
-        font-family: 'Bebas Neue', cursive;
-        text-align: center;
-        font-size: 500%;
-
+    height: calc(100vh-100px);
+    nav {
+        margin: 10px; 
+        li {display: inline;
+        a{
+            font-size: 40px;
+            text-align: center;
+            font-family:'Bebas Neue', cursive;
+            color: white
+            
+        }}
         
-        nav ul li {
-            margin: 10px;
-        line-height: 25px;
-        display: inline;
-        font-family:'Bebas Neue', cursive;
-        color: $color-texto;
-        font-size: 40px;
-        text-align: center;
-        grid-area: navegador;}
-        a {
-            text-decoration: none;
-        }
-        }
+    }
+}
+
+h1 {color: white;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 1000%;
+    position: sticky;
+    top: 0; 
+    left: 0;
+    right: 0;
+    grid-area: titulo;
+}
+
+.contenedor{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    grid-area: imagenes;
+}
+
+.imagen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: black;
+    text-align: center;  
+    font-family:'Bebas Neue', cursive;   
+}
+img {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+.container-fluid {
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    h5 {
+        font-size: 200%;
+    }
+}
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 500%;
+    }
 }

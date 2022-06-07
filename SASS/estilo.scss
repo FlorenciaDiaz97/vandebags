@@ -1,5 +1,7 @@
-@import "body";
-@import "bucles";
-@import "extend";
-@import "maps";
-@import "mixin";
+@import "body","footer";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
