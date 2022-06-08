@@ -18,18 +18,13 @@ form {
     box-sizing: border-box;
     margin-top: 20px;
     background: $fondo-color;
-    padding: 10px 20px
-    
-    h2{
-        font-size: 30px;
-    }
-
+    padding: 10px 20px;
     input, textarea{
         width: 100%;
         margin-bottom: 20px;
         padding: 7px;
         box-sizing: border-box;
-        font-size: 20 px;
+        font-size: 20px;
         border: none;
     }
     textarea {
@@ -43,6 +38,7 @@ form {
     background: $fondo-color;
     color: $text-color;
     border: 2px solid white;
+    font-size: 30px;
 }
 #boton:hover {
     cursor: pointer;
@@ -52,16 +48,20 @@ form {
     font-size: 30px;
     background-color: $fondo-color;
     border: 2px solid white;
+    p{
+        text-align: justify;
+        margin: 3rem;
+    }
+}
+iframe {
+    margin: 20px;
 }
 .carteras {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-area: carteras;
 }
- .item {
-    background-color: $fondo-color;
-    border: white 5px solid;
- }
+
 .texto {
     font-family:'Bebas Neue', cursive;
     font-size: 200%;
@@ -82,16 +82,17 @@ button {
     border: white 2px solid;
     color: $text-color;
     font-family:'Bebas Neue', cursive;
-    font-size: 200%;
+    font-size: 120%;
     text-align: right;
     animation: pulse; 
     animation-duration: 30s;
     animation-delay: 0s;
     transition-property: top;
     transition-duration: 3s, 10s;
+    margin: 10px;
 }
 
-@media (max-widht: 480px) {
+@media screen and (max-width: 400px) {
     form{
         width: 100%;
     }

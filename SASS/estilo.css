@@ -83,7 +83,7 @@ img {
 footer {
   color: white;
   font-size: 20px;
-  text-align: center;
+  text-align: center !important;
   grid-area: footer;
   font-size: 'Bebas Neue', cursive !important;
 }
@@ -147,8 +147,7 @@ form {
           box-sizing: border-box;
   margin-top: 20px;
   background: black;
-  padding: 10px 20px h2;
-  padding-font-size: 30px;
+  padding: 10px 20px;
 }
 
 form input, form textarea {
@@ -157,7 +156,7 @@ form input, form textarea {
   padding: 7px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 20 px;
+  font-size: 20px;
   border: none;
 }
 
@@ -171,6 +170,7 @@ form textarea {
   background: black;
   color: white;
   border: 2px solid white;
+  font-size: 30px;
 }
 
 #boton:hover {
@@ -183,17 +183,21 @@ form textarea {
   border: 2px solid white;
 }
 
+#texto p {
+  text-align: justify;
+  margin: 3rem;
+}
+
+iframe {
+  margin: 20px;
+}
+
 .carteras {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-area: carteras;
-}
-
-.item {
-  background-color: black;
-  border: white 5px solid;
 }
 
 .texto {
@@ -215,7 +219,7 @@ button {
   border: white 2px solid;
   color: white;
   font-family: 'Bebas Neue', cursive;
-  font-size: 200%;
+  font-size: 120%;
   text-align: right;
   -webkit-animation: pulse;
           animation: pulse;
@@ -227,9 +231,10 @@ button {
   transition-property: top;
   -webkit-transition-duration: 3s, 10s;
           transition-duration: 3s, 10s;
+  margin: 10px;
 }
 
-@media (max-widht: 480px) {
+@media screen and (max-width: 400px) {
   form {
     width: 100%;
   }
