@@ -1,13 +1,17 @@
 $text-color: white;
 $fondo-color: black; 
-body {
-    color: $text-color;
+
+@mixin parrafos {
     text-align: center;
+    color: white;
     font-family:'Bebas Neue', cursive;
+    
+}
+body {
+    @include parrafos;
     background-color: $fondo-color;
     header {
-        font-family:'Bebas Neue', cursive;
-        color: $text-color;
+        @include parrafos;
     }
 
 }
@@ -57,11 +61,7 @@ iframe {
     width: 100%;
     height: 350;
 }
-.carteras {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-area: carteras;
-}
+
 
 .texto {
     font-family:'Bebas Neue', cursive;
@@ -77,6 +77,18 @@ iframe {
 
 }
 
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.caja {
+    background-color: $fondo-color;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    @include parrafos;
+    width: 400px;
+}
 
 button {
     background-color: $fondo-color;
@@ -95,6 +107,9 @@ button {
 
 @media screen and (max-width: 400px) {
     form{
+        width: 100%;
+    }
+    .textodos{
         width: 100%;
     }
 }

@@ -21,6 +21,16 @@ body nav li a {
   color: white;
 }
 
+.flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 h1 {
   color: white;
   background-color: black;
@@ -28,8 +38,7 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   text-align: center;
   font-size: 1000%;
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -129,15 +138,16 @@ main {
 }
 
 body {
-  color: white;
   text-align: center;
+  color: white;
   font-family: 'Bebas Neue', cursive;
   background-color: black;
 }
 
 body header {
-  font-family: 'Bebas Neue', cursive;
+  text-align: center;
   color: white;
+  font-family: 'Bebas Neue', cursive;
 }
 
 form {
@@ -193,14 +203,6 @@ iframe {
   height: 350;
 }
 
-.carteras {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-area: carteras;
-}
-
 .texto {
   font-family: 'Bebas Neue', cursive;
   font-size: 200%;
@@ -213,6 +215,27 @@ iframe {
   font-size: 150%;
   color: white;
   text-align: left;
+}
+
+.flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.caja {
+  background-color: black;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  width: 400px;
 }
 
 button {
@@ -239,10 +262,17 @@ button {
   form {
     width: 100%;
   }
+  .textodos {
+    width: 100%;
+  }
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.disclaimer {
+  display: none;
 }
 /*# sourceMappingURL=estilo.css.map */
