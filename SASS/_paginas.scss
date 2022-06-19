@@ -83,8 +83,8 @@ iframe {
 }
 .caja {
     background-color: $fondo-color;
-    margin: auto;
     margin-top: 20px;
+    margin: auto;
     padding: 10px 20px;
     @include parrafos;
     width: 400px;
@@ -109,7 +109,12 @@ button {
     form{
         width: 100%;
     }
-    .textodos{
-        width: 100%;
+    .caja{
+        width: 100%;  
+    }
+    }
+@media screen and (max-width: 1100px) {
+    .flexcontainer{
+        flex-direction: column;
     }
 }

@@ -229,8 +229,8 @@ iframe {
 
 .caja {
   background-color: black;
-  margin: auto;
   margin-top: 20px;
+  margin: auto;
   padding: 10px 20px;
   text-align: center;
   color: white;
@@ -262,8 +262,17 @@ button {
   form {
     width: 100%;
   }
-  .textodos {
+  .caja {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .flexcontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
